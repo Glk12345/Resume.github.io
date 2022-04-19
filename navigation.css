@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #222;
+}
+body {
+  padding: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  margin-bottom: 2rem;
+  color: salmon;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: salmon;
+}
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: salmon;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+section + section {
+  margin-top: 2rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  border-radius: 9999px;
+  width: 15rem;
+  height: 15rem;
+  margin-left: 630px;
+  margin-bottom: 1rem;
+}
+.profile {
+  text-align: center;
+}
+.contact li {
+  padding: 1rem;
+}
+
